@@ -36,7 +36,7 @@ const handleSubmit = async () => {
 
   try {
     const response = await axios.post(
-      "http://localhost:5000/api/apply",
+      "https://loan-eligibility-assessment-portal.onrender.com/api/apply",
       {
         name,
         age,
